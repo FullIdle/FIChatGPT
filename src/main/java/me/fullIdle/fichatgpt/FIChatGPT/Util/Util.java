@@ -117,6 +117,7 @@ public class Util {
                 continuousRunnable.remove(player.getUniqueId());
             }
         };
+        continuousRunnable.put(player.getUniqueId(),runnable);
         runnable.run();
         return runnable;
     }

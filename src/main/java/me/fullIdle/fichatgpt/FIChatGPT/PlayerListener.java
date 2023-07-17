@@ -15,7 +15,7 @@ public class PlayerListener implements Listener {
         String message = e.getMessage().toLowerCase();
         String chatStart = main.getConfig().getString("ChatStart").toLowerCase();
 
-        if (continuousRunnable != null){
+        if (continuousRunnable.get(e.getPlayer().getUniqueId()) == null){
             if (!message.contains(chatStart)) {
                 return;
             }
