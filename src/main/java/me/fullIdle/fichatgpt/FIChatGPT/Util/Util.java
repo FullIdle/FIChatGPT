@@ -84,7 +84,7 @@ public class Util {
                     }
                     int delay = config.getInt("ContinuousDialogue");
                     if (player != null)if (delay > 0){
-                        setContinuousRunnable(player);
+                        setContinuousRunnable(player,delay);
                     }
                     String replay = getMsg(config.getString("Format"), getReplay(jsonString));
                     if (player != null) {
@@ -105,7 +105,7 @@ public class Util {
         };
     }
 
-    public static BukkitRunnable setContinuousRunnable(Player player){
+    public static BukkitRunnable setContinuousRunnable(Player player,int daley){
         BukkitRunnable runnable = continuousRunnable.get(player.getUniqueId());
         if (runnable != null){
             runnable.cancel();
@@ -118,7 +118,7 @@ public class Util {
             }
         };
         continuousRunnable.put(player.getUniqueId(),runnable);
-        runnable.run();
+        runnable.runTaskLater(main,20*daley);
         return runnable;
     }
 }
