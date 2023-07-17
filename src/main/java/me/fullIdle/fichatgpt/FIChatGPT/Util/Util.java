@@ -106,7 +106,7 @@ public class Util {
     }
 
     public static BukkitRunnable setContinuousRunnable(){
-        if (continuousRunnable == null){
+        if (continuousRunnable != null){
             continuousRunnable.cancel();
             continuousRunnable = null;
         }
