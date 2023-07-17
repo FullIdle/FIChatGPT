@@ -53,3 +53,7 @@ Server:
 3.在登入/配置好后结束运行`pandora -s 127.0.0.1:[插件配置中的端口] -v ` -v插件可选
 
 ### 最后启动服务器就能用了
+
+##效果图
+![](https://github.com/FullIdle/FIChatGPT-Minecraft/blob/master/image/效果图.png?raw=true)
+![](https://github.com/FullIdle/FIChatGPT-Minecraft/blob/master/image/效果图2.png?raw=true)
