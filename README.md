@@ -39,6 +39,7 @@ Server:
 4.安装自己想法修改配置
 ###2.安装python
 [点击前往Python](https://python.org)
+
 ###3.安装pandora-chatgpt
 安装好python后在命令提示符中使用命令
 `pip install pandora-chatgpt`
