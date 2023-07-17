@@ -54,6 +54,8 @@ Server:
 
 ### 最后启动服务器就能用了
 
-##效果图
+## 效果图
+
 ![](https://github.com/FullIdle/FIChatGPT-Minecraft/blob/master/image/效果图.png?raw=true)
+
 ![](https://github.com/FullIdle/FIChatGPT-Minecraft/blob/master/image/效果图2.png?raw=true)
