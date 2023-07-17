@@ -9,7 +9,7 @@ permissions:
   fichatgpt.use:
     default: true
   fichatgpt.chat:
-    default: false
+    default: op
   fichatgpt.command.delete:
     default: op
   fichatgpt.command.remove:

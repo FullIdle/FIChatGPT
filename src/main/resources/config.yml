@@ -16,7 +16,7 @@ SaveInRealTime: false
 ##开启连续对话;单位为秒;ai回复后开始计时;不管那个玩家,只要在gpt回复后指定时间内都可以连续下去(如果关了Current的话每个玩家gpt记忆不同会很怪)
 ContinuousDialogue: 10
 ChatStart: '@AI'
-Format: '&3AI&7: &r{REPLY}'
+Format: '&r<&3AI&r>&7: &r{REPLY}'
 
 ##Server: #自己设定指定页面
 ##ParentMessageId: chatgpt最后回复的id
