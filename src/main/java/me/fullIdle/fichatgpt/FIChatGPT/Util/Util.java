@@ -87,7 +87,7 @@ public class Util {
                         new BukkitRunnable() {
                             @Override
                             public void run() {
-
+                                continuous = false;
                             }
                         }.runTaskLater(main,20*delay);
                     }
