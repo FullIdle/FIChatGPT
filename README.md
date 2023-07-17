@@ -37,7 +37,9 @@ Format: '&3AI&7: &r{REPLY}'
 ##ConversationId: 页面id
 Server:
 ```
+
 3.关闭服务器
+
 4.安装自己想法修改配置
 ### 2.安装python
 [点击前往Python](https://python.org)
@@ -45,6 +47,9 @@ Server:
 安装好python后在命令提示符中使用命令
 `pip install pandora-chatgpt`
 1.安装好后运行pandora
+
 2.更具pandora的时候方式登入好账号或者token(建议账号登入) [pandora](https://github.com/pengzhile/pandora)
+
 3.在登入/配置好后结束运行`pandora -s 127.0.0.1:[插件配置中的端口] -v ` -v插件可选
+
 ### 最后启动服务器就能用了
