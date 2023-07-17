@@ -13,7 +13,7 @@ CleanUpAtStartup: true
 Current: true
 ##如果是true那么chatgpt的每一次回答都会进行一次PlayerData数据的同步,如果是false的话只有服务器正常关闭的时候会同步(直接崩的可不算正常)
 SaveInRealTime: false
-##0为关闭 开启连续对话;单位为秒;ai回复后开始计时;不管那个玩家,只要在gpt回复后指定时间内都可以连续下去(如果关了Current的话每个玩家gpt记忆不同会很怪)
+##0为关闭 开启连续对话;单位为秒;ai回复后开始计时;每个玩家是独立的,只要在gpt回复后指定时间内都可以连续下去(如果关了Current的话每个玩家gpt记忆不同会很怪)
 ContinuousDialogue: 10
 ChatStart: '@AI'
 Format: '&r<&3AI&r>&7: &r{REPLY}'
