@@ -10,7 +10,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Main extends JavaPlugin {
-    public static boolean continuous = false;
+    public static BukkitRunnable continuousRunnable;
     public static List<BukkitRunnable> runnableList;
     public static Main main;
     public static Gson gson;
