@@ -1,0 +1,18 @@
+name: ${rootProject.name}
+main: ${group}
+version: ${version}
+commands:
+  fichatgpt:
+    description: cmd
+    aliases: [fichat,figpt,ficg]
+permissions:
+  fichatgpt.use:
+    default: true
+  fichatgpt.chat:
+    default: false
+  fichatgpt.command.delete:
+    default: op
+  fichatgpt.command.remove:
+    default: true
+  fichatgpt.command.reload:
+    default: op
